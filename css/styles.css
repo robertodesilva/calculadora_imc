@@ -6,17 +6,16 @@ main {
 	align-items: center;
 }
 
-/*Comentario*/
 .container {
 	display: flex;
 	flex-direction: column;
-	background: rgb(255, 198, 0);
+	background: #FFD24C;
 	width: 400px;
 	height: 600px;
 	align-items: center;
 	justify-content: space-evenly;
 	border-radius: 20px;
-	box-shadow: 0 0 10x black;
+	box-shadow: 0, 0, 10x black;
 }
 
 .title {
@@ -39,6 +38,10 @@ main {
 	align-items: center;
 }
 
+.input input:focus {
+	color: #FFE69A;
+}
+
 .input input {
 	width: 200px;
 	height: 50px;
@@ -59,10 +62,14 @@ button {
 	height: 40px;
 	font: bold 1.2rem serif;
 	background: #000;
-	color: rgb(255, 198, 00);
+	color: #FFD24C;
 	outline: none;
 	border-radius: 5px;
 	cursor: pointer;
+}
+
+button:focus {
+	color: #FFE69A;
 }
 
 .result {
@@ -75,7 +82,7 @@ button {
 	font: italic 1.5rem serif;
 	box-shadow: 0px 0px 10px black;
 	background: #000;
-	color: rgb(255, 198, 0);
+	color: #FFE69A;
 	padding: 20px;
 	box-sizing: border-box;
 	user-select: none;
